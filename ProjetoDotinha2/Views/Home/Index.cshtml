@@ -1,0 +1,28 @@
+﻿@model List<HeroModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div>
+        @ViewData["teste"]
+    </div>
+    <div class="row">
+        @foreach (var hero in Model)
+        {
+            <div class="card" style="width: 18rem;" @hero.Id>
+                <div class="card-body">
+                    <h5 class="card-title">@hero.name</h5>
+                    <span class="card-text">Localized name: @hero.localizedName</span>
+                    <p class="card-text">R$ @hero.primaryAttr</p>
+                </div>
+                <div style="display: flex; flex-direction: row;">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
