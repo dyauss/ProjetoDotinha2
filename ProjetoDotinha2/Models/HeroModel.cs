@@ -4,10 +4,12 @@
     {
         public int Id { get; set; }
         public string name { get; set; }
-        public string localizedName { get; set; }
+        public string img { get; set; }
+        public double str_gain { get; set; }
+        public string localized_name { get; set; }
 
-        public string primaryAttr { get; set; }
+        public string primary_attr { get; set; }
         
-        public string attackType { get; set; }
+        public string attack_type { get; set; }
     }
 }

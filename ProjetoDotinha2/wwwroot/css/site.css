@@ -20,3 +20,14 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.card-heroes{
+    width: 300px;
+    height: 250px;   
+    border: 1px solid black;
+    border-radius: 5%;    
+}
+    .card-heroes card-heroes-inside {
+        padding: 3px;
+        display: flex;
+    }
