@@ -1,0 +1,23 @@
+﻿@model PlayerModel
+
+<div class="row gap-3">
+    <h1 class="text-center">Players fodões (ou nem tanto)</h1>
+    
+    <form asp-controller="Player" asp-action="GetPlayerById" method="post">
+        <div class="mb-3">
+            <label for="player" class="form-label">Nome jogador</label>
+            <input type="text" asp-for="account_id" class="form-control w-25">
+        </div>
+        <button type="submit" class="btn btn-primary">Pesquisar</button>
+
+        <div class="card-player" style="width: 18rem;" @Model.account_id>
+            <div class="card-heroes-inside">
+                <img src=@Model.avatar/>
+                <h5 class="font-weight-bold">@Model.personaname</h5>
+            </div>
+        </div>
+
+
+    </form>
+    
+</div>

@@ -1,6 +1,6 @@
 ﻿namespace ProjetoDotinha2.Models
 {
-    public class Team
+    public class TeamModel
     {
         public int teamId { get; set; }
         public double rating { get; set; }

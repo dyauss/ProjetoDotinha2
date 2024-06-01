@@ -23,13 +23,13 @@ namespace ProjetoDotinha2.Controllers
             return heroes;
         }
 
-        static async Task<Team> GetTeam(string path)
+        static async Task<TeamModel> GetTeam(string path)
         {
-            Team team = null;
+            TeamModel team = null;
             HttpResponseMessage response = await client.GetAsync(path);
             if (response.IsSuccessStatusCode)
             {
-                team = await response.Content.ReadAsAsync<Team>();
+                team = await response.Content.ReadAsAsync<TeamModel>();
             }
             return team;
         }
@@ -43,7 +43,7 @@ namespace ProjetoDotinha2.Controllers
 
         public async Task<IActionResult> Index()
         {
-            Team team = await GetTeam("https://api.opendota.com/api/teams/2586976");
+            TeamModel team = await GetTeam("https://api.opendota.com/api/teams/2586976");
             List<HeroModel> heroes = await GetHeroes("https://api.opendota.com/api/heroes");
 
             ViewData["teste"] = team.name;

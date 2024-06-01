@@ -7,6 +7,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<IHeroRepository, HeroRepository>();
+builder.Services.AddHttpClient<IPlayerRepository, PlayerRepository>();
 
 var app = builder.Build();
 
