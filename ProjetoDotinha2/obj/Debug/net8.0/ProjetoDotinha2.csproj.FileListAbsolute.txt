@@ -105,3 +105,4 @@ C:\Users\PEDRO HENRIQUE\ProjetoDotinha2\ProjetoDotinha2\obj\Debug\net8.0\refint\
 C:\Users\PEDRO HENRIQUE\ProjetoDotinha2\ProjetoDotinha2\obj\Debug\net8.0\ProjetoDotinha2.pdb
 C:\Users\PEDRO HENRIQUE\ProjetoDotinha2\ProjetoDotinha2\obj\Debug\net8.0\ProjetoDotinha2.genruntimeconfig.cache
 C:\Users\PEDRO HENRIQUE\ProjetoDotinha2\ProjetoDotinha2\obj\Debug\net8.0\ref\ProjetoDotinha2.dll
+C:\Users\thand\source\repos\ProjetoDotinha2\ProjetoDotinha2\obj\Debug\net8.0\ProjetoDotinha2.sourcelink.json

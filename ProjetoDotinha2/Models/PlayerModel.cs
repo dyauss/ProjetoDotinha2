@@ -1,19 +1,14 @@
-﻿namespace ProjetoDotinha2.Models
+﻿using System.Text.Json.Serialization;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace ProjetoDotinha2.Models
 {
     public class PlayerModel
     {
+        [JsonPropertyName("rank_tier")]
+        public string RankTier { get; set; }
 
         public int account_id { get; set; }
-
-        private int Id { get; set; }
-
-        public string personaname { get; private set; }
-
-        private string name { get; set; }
-
-        private bool plus { get; set; }
-
-        public string avatar { get; private set; }
 
     }
 }

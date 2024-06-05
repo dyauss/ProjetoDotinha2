@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿
+using System.Text.Json;
 using ProjetoDotinha2.Models;
 
 namespace ProjetoDotinha2.Repository
@@ -15,13 +16,16 @@ namespace ProjetoDotinha2.Repository
 
         public async Task<PlayerModel> GetPlayerById (string id)
         {
-
             var response = await _httpClient.GetAsync("https://api.opendota.com/api/players/" + id);
             response.EnsureSuccessStatusCode();
 
             var content = await response.Content.ReadAsStringAsync();
-            var player = JsonConvert.DeserializeObject<PlayerModel>(content);
 
+            Console.WriteLine("Capivara 4" + content.ToString());
+
+            var player = JsonSerializer.Deserialize<PlayerModel>(content);
+
+            Console.WriteLine("Player Name: " + player.RankTier);
 
             return player;
         }

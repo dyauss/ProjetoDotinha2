@@ -20,17 +20,21 @@ namespace ProjetoDotinha2.Controllers
             return Ok(player);
         }
 
+        [HttpGet]
         public async Task <IActionResult> Index()
         {
-            var player = await _playerRepository.GetPlayerById("215584921");
+            var player = await _playerRepository.GetPlayerById("193827172");
             return View(player);
         }
 
-       /* [HttpPost]
-        public IActionResult Search (PlayerModel player)
+        [HttpPost]
+        public async Task <IActionResult> Show(string account_id)
         {
+            Console.WriteLine("alo" + account_id);
 
-        } */
+            var player = await _playerRepository.GetPlayerById("193827172");
 
+            return View(player);
+        }
     }
 }
