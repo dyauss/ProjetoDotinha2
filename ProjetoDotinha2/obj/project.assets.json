@@ -205,19 +205,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gui_f\\.nuget\\packages\\": {}
+    "C:\\Users\\PEDRO HENRIQUE\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gui_f\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
+      "projectUniqueName": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
       "projectName": "ProjetoDotinha2",
-      "projectPath": "C:\\Users\\gui_f\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
-      "packagesPath": "C:\\Users\\gui_f\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gui_f\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\obj\\",
+      "projectPath": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
+      "packagesPath": "C:\\Users\\PEDRO HENRIQUE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\gui_f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PEDRO HENRIQUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -225,6 +230,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -272,7 +278,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

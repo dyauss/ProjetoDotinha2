@@ -23,7 +23,12 @@
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
-            
+           @foreach (var match in Model.RecentMatches) {
+               <div class ="card" style="width: 18rm;" @match.match_id>
+                   <p class = "font-weigth-bold">@match.hero_id </p>
+                </div>
+           }
         </div>
     </div>
 </div>
+  

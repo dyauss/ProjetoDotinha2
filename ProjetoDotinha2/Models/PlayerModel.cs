@@ -10,9 +10,8 @@ namespace ProjetoDotinha2.Models
         public int Id { get; set; }
         public int account_id { get; set; }
         public string rank_tier { get; set; }
-
         public Profile profile { get; set; }
-        public RecentMatchesModel RecentMatches { get; set; }
+        public List <RecentMatchesModel> RecentMatches { get; set; }
 
     }
 }
