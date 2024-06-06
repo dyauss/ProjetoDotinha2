@@ -14,7 +14,7 @@ namespace ProjetoDotinha2.Controllers
             _playerRepository = playerRepository;
         }
         [HttpGet]
-        public async Task<IActionResult> GetPlayerById(string id)
+        public async Task<IActionResult> GetPlayerById(int id)
         {
             var player = await _playerRepository.GetPlayerById(id);
             return Ok(player);
@@ -23,16 +23,16 @@ namespace ProjetoDotinha2.Controllers
         [HttpGet]
         public async Task <IActionResult> Index()
         {
-            var player = await _playerRepository.GetPlayerById("193827172");
+            var player = await _playerRepository.GetPlayerById(193827172);
             return View(player);
         }
 
         [HttpPost]
-        public async Task <IActionResult> Show(string account_id)
+        public async Task <IActionResult> Show(int account_id)
         {
             Console.WriteLine("alo" + account_id);
 
-            var player = await _playerRepository.GetPlayerById("193827172");
+            var player = await _playerRepository.GetPlayerById(account_id);
 
             return View(player);
         }

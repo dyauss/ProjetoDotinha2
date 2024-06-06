@@ -4,7 +4,7 @@ namespace ProjetoDotinha2.Repository
 {
     public interface IPlayerRepository
     {
-        Task<PlayerModel> GetPlayerById(string id);
+        Task<PlayerModel> GetPlayerById(int id);
 
     }
 }

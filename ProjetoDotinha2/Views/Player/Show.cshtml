@@ -2,7 +2,28 @@
 @model PlayerModel
 
 <div class="row gap-3">
-    <h1 class="text-center">Players fodões (ou nem tanto)</h1>
-
-    
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <div>
+            @ViewData["teste"]
+        </div>
+        <div class="row">
+            
+            <div class="card" style="width: 18rem;" @Model.Id>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.profile.personaname</h5>
+                    <p class="card-title">@Model.profile.name</p>
+                    <p class="card-title">@Model.profile.account_id</p>
+                    <p class="card-title">@Model.profile.last_login</p>
+                    <img src="@Model.profile.avatar" />
+                    <img src="@Model.profile.avatarfull" />
+                </div>
+                <div style="display: flex; flex-direction: row;">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </div>
