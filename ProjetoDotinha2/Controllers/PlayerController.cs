@@ -30,11 +30,17 @@ namespace ProjetoDotinha2.Controllers
         [HttpPost]
         public async Task <IActionResult> Show(int account_id)
         {
-            Console.WriteLine("alo" + account_id);
+            var response = await _playerRepository.GetPlayerById(account_id);
 
-            var player = await _playerRepository.GetPlayerById(account_id);
-
-            return View(player);
+            if (response == null)
+            {
+                ViewData["notfound"] = "Não foi encontrado";
+                return View();
+            } else
+            {
+                Console.WriteLine(response);
+                return View(response);
+            }
         }
     }
 }

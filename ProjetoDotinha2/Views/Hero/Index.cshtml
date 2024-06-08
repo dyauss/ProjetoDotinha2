@@ -3,13 +3,17 @@
 <div class="row gap-3">
     <h1 class="text-center">Heróis de força</h1>
         
+    
     @foreach (var hero in Model)
     {     
         if (hero.primary_attr == "str")
         {
             <div class="card-heroes bg-danger" style="width: 18rem;" @hero.Id>
                 <div class="card-heroes-inside">
-                    <img src=@hero.img />                   
+                    @{
+                        string url = "https://cdn.akamai.steamstatic.com" + @hero.img;
+                    }
+                    <img src=@url />
                     <h5 class="font-weight-bold">@hero.localized_name</h5>
                     <p class="card-text font-weight-normal">Ganho de força: @hero.str_gain</p>
                     @if (@hero.attack_type == "Melee")
@@ -32,7 +36,10 @@
         {
             <div class="card-heroes bg-success" style="width: 18rem;" @hero.Id>
                 <div class="card-heroes-inside">
-                    <img src=@hero.img />
+                    @{
+                        string url = "https://cdn.akamai.steamstatic.com" + @hero.img;
+                    }
+                    <img src=@url />
                     <h5 class="font-weight-bold">@hero.localized_name</h5>
                     <p class="card-text font-weight-normal">Ganho de força: @hero.str_gain</p>
                     @if (@hero.attack_type == "Melee")
@@ -55,7 +62,10 @@
         {
             <div class="card-heroes bg-primary" style="width: 18rem;" @hero.Id>
                 <div class="card-heroes-inside">
-                    <img src=@hero.img />
+                    @{
+                        string url = "https://cdn.akamai.steamstatic.com" + @hero.img;
+                    }
+                    <img src=@url />
                     <h5 class="font-weight-bold">@hero.localized_name</h5>
                     <p class="card-text font-weight-normal">Ganho de força: @hero.str_gain</p>
                     <p>@hero.primary_attr</p>
@@ -73,7 +83,10 @@
         {           
             <div class="card" style="width: 18rem;" @hero.Id>
                 <div class="card-body">
-                    <img src=@hero.img />
+                    @{
+                        string url = "https://cdn.akamai.steamstatic.com" + @hero.img;
+                    }
+                    <img src=@url />
                     <h5 class="font-weight-bold">@hero.localized_name</h5>
                     <p class="card-text font-weight-normal">Ganho de força: @hero.str_gain</p>
                     <p>@hero.primary_attr</p>
