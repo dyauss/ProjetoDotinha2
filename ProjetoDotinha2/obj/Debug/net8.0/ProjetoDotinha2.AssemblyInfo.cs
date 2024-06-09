@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoDotinha2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbf84ce3d5e29546f11af3d98c43a913e51cd88c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bef0d422303c890cc3a319dcba8ee15005eac39")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoDotinha2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoDotinha2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
