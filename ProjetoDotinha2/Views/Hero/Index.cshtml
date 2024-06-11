@@ -14,11 +14,18 @@
         <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/herogrid/filter-uni-active.png"
              class="filter-img"
              onclick="filterHeroes('all', this)" />
+        <img src="images/melee.png"
+             class="filter-img-attack-type"
+             onclick="filterHeroesByAttackType('Melee', this)" />
+        <img src="images/ranged.png"
+             class="filter-img-attack-type"
+             onclick="filterHeroesByAttackType('Ranged', this)" />
+        
     </div>
 
     @foreach (var hero in Model)
     {
-        <div class="card-heroes" data-primary-attr="@hero.primary_attr" id="hero-@hero.Id">
+        <div class="card-heroes" data-primary-attr="@hero.primary_attr" data-attack-type="@hero.attack_type" id="hero-@hero.Id">
             <div class="image-container">
                 @{
                     string url = "https://cdn.akamai.steamstatic.com" + hero.img;

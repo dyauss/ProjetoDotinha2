@@ -42,6 +42,7 @@ namespace ProjetoDotinha2.Repository
 
 
                 Console.WriteLine("Match id " + player.RecentMatches[1].match_id);
+                
 
                 return player;
             } else

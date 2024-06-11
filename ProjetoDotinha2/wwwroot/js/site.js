@@ -28,6 +28,30 @@ function filterHeroes(attribute, imgElement) {
     }
 }
 
+function filterHeroesByAttackType(attackType, imgElement) {
+
+    document.querySelectorAll('.filter-img-attack-type').forEach(img => img.classList.remove('active'));
+
+    const isActive = imgElement.classList.contains('active');
+
+    if (isActive || activeFilter === attackType) {
+        imgElement.classList.remove('active');
+        showAllHeroes();
+        activeFilter = null;
+    } else {
+        imgElement.classList.add('active');
+        activeFilter = attackType;
+        const heroes = document.querySelectorAll('.card-heroes');
+        heroes.forEach(hero => {
+            if (hero.getAttribute('data-attack-type') === attackType) {
+                hero.style.display = 'block';
+            } else {
+                hero.style.display = 'none';
+            }
+        });
+    }
+}
+
 function showAllHeroes() {
     const heroes = document.querySelectorAll('.card-heroes');
     heroes.forEach(hero => {
