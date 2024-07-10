@@ -1,4 +1,5 @@
 using ProjetoDotinha2.Repository;
+using ProjetoDotinha2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<IHeroRepository, HeroRepository>();
 builder.Services.AddHttpClient<IPlayerRepository, PlayerRepository>();
+
+builder.Services.AddHttpClient<IHeroService, HeroService>();
+builder.Services.AddSingleton<IHeroService, HeroService>();
 
 var app = builder.Build();
 

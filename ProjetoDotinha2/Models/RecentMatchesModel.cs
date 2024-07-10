@@ -17,7 +17,7 @@
         public int leaver_status { get; set; }
         public string party_size { get; set; }
         public string hero_variant { get; set; }
-
+        public string hero_name { get; set; }
     }
 }
                                                                                   

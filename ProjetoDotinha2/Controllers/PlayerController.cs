@@ -1,17 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjetoDotinha2.Models;
+using ProjetoDotinha2.Models.ViewModels;
 using ProjetoDotinha2.Repository;
+using ProjetoDotinha2.Services;
 
 namespace ProjetoDotinha2.Controllers
 {
     public class PlayerController : Controller
     {
         private readonly IPlayerRepository _playerRepository;
+        private readonly IHeroService _heroService;
 
-
-        public PlayerController (IPlayerRepository playerRepository )
+        public PlayerController (IPlayerRepository playerRepository, IHeroService heroService)
         {
             _playerRepository = playerRepository;
+            _heroService = heroService;
         }
         [HttpGet]
         public async Task<IActionResult> GetPlayerById(int id)
@@ -38,8 +41,17 @@ namespace ProjetoDotinha2.Controllers
                 return View();
             } else
             {
-                Console.WriteLine(response);
-                return View(response);
+                Console.WriteLine("response2: " + response.profile.personaname);
+
+                ShowViewModel showViewModel = new ShowViewModel();
+                List<HeroModel> heroes = await _heroService.GetHeroesAsync();
+
+                Console.WriteLine("Teste: " + heroes.Count);
+
+                showViewModel.Player = response;
+                showViewModel.Heroes = heroes;
+
+                return View(showViewModel);
             }
         }
     }

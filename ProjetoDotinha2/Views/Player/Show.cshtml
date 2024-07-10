@@ -1,5 +1,4 @@
-﻿
-@model PlayerModel
+﻿@model ProjetoDotinha2.Models.ViewModels.ShowViewModel
 
 <div class="row gap-3">
     <div class="text-center">
@@ -10,26 +9,29 @@
         </div>
         <div class="row">
             
-            @if (Model != null ){
-                <div class="card" style="width: 18rem;" @Model.Id>
+            @if (Model?.Player?.profile != null)
+            {
+                <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">@Model.profile.personaname</h5>
-                        <p class="card-title">@Model.profile.name</p>
-                        <p class="card-title">@Model.profile.account_id</p>
-                        <p class="card-title">@Model.profile.last_login</p>
-                        <img src="@Model.profile.avatar" />
-                        <img src="@Model.profile.avatarfull" />
-                    </div>
+                        <h5 class="card-title">@Model.Player.profile.personaname</h5>
+                        <p class="card-title">@Model.Player.profile.name</p>
+                        <p class="card-title">@Model.Player.profile.account_id</p>
+                        <p class="card-title">@Model.Player.profile.last_login</p>
+                        <img src="@Model.Player.profile.avatar" />
+                        <img src="@Model.Player.profile.avatarfull" />
+                    </div>  
                     <div style="display: flex; flex-direction: row;">
                         <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                @foreach (var match in Model.RecentMatches)
+
+                @foreach (var match in Model.Player.RecentMatches)
                 {
                     <div class="card" style="width: 18rm;" @match.match_id>
-                        <p class="font-weigth-bold">@match.hero_id </p>
+                        <p class="font-weigth-bold">@match.hero_name </p>
                     </div>
                 }
+                
             } else
             {
                 <p>@ViewData["notfound"]</p>
