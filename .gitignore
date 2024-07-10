@@ -399,3 +399,7 @@ FodyWeavers.xsd
 
 #VS
 ProjetoDotinha2/obj/Debug/net8.0/
+
+#VS Files
+ProjetoDotinha2/obj/Debug/net8.0/ProjetoDotinha2.AssemblyInfo.cs
+ProjetoDotinha2/obj/Debug/net8.0/ProjetoDotinha2.AssemblyInfoInputs.cache
