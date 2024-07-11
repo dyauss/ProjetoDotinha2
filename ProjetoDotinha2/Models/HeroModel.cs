@@ -5,6 +5,7 @@
         public int Id { get; set; }
         public string name { get; set; }
         public string img { get; set; }
+        public string icon { get; set; }
         public double str_gain { get; set; }
         public string localized_name { get; set; }
 

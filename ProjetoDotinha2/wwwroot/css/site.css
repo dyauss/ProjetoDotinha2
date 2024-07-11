@@ -99,3 +99,11 @@ body {
         filter: brightness(1);
         opacity: 1;       
     }
+
+.player-wins{
+    color: green;
+}
+.player-loses{
+    color: red;
+}
+

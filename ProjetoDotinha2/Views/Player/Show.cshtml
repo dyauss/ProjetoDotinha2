@@ -20,17 +20,45 @@
                         <img src="@Model.Player.profile.avatar" />
                         <img src="@Model.Player.profile.avatarfull" />
                     </div>  
-                    <div style="display: flex; flex-direction: row;">
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
                 </div>
+               
+                <div class="row">
+                    @foreach (var match in Model.Player.RecentMatches)
+                    {
+                        <div class="card " id="@match.match_id">
+                            <div class="card-body d-flex justify-content-between">
+                                @{
+                                    string url = "https://cdn.akamai.steamstatic.com" + match.hero_image;
+                                }
+                                <div>
+                                    <div>
+                                         <img src="@url" alt="Imagem do Herói" style="width: 9rem; height: 9rem; border-radius: 50%;"/>
+                                    </div>
+                                   
+                                    <div>
+                                        <strong class="font-weight-bold">@match.hero_name</strong>
+                                    </div>
+                                    
+                                </div>
+                                <div>
+                                    <p>Horário de inicio da partida: @DateTimeOffset.FromUnixTimeSeconds(match.start_time).DateTime</p>
+                                    <p>Duração: @(match.duration / 60):@(match.duration % 60)</p                                   
+                                    <span>@match.kills/@match.deaths/@match.assists</span>
+                                    <p class="@(match.radiant_win == (match.player_slot <= 127) ? "player-wins" : "player-loses")">
+                                        @(match.radiant_win == (match.player_slot <= 127) ? "Vitória" : "Derrota")
+                                    </p>
+                                </div>   
+                                <div>
 
-                @foreach (var match in Model.Player.RecentMatches)
-                {
-                    <div class="card" style="width: 18rm;" @match.match_id>
-                        <p class="font-weigth-bold">@match.hero_name </p>
-                    </div>
-                }
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    }
+
+                </div>
+               
                 
             } else
             {

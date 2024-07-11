@@ -16,7 +16,7 @@ namespace ProjetoDotinha2.Services
         {
             if (_heroes == null)
             {
-                HttpResponseMessage response = await _client.GetAsync("https://api.opendota.com/api/heroes");
+                HttpResponseMessage response = await _client.GetAsync("https://api.opendota.com/api/heroStats"); 
                 if (response.IsSuccessStatusCode)
                 {
                     _heroes = await response.Content.ReadAsAsync<List<HeroModel>>();

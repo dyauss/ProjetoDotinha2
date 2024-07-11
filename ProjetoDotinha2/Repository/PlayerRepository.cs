@@ -44,6 +44,8 @@ namespace ProjetoDotinha2.Repository
                     HeroModel result = heroes.Find(x => x.Id == match.hero_id);
                     //Console.WriteLine("nome do heroi: " + result.localized_name);
                     match.hero_name = result.localized_name;
+                    match.hero_image = result.img;                
+                                                            
                 }
 
 
