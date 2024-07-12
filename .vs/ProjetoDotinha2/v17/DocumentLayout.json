@@ -1,70 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\",
+  "WorkspaceRootPath": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\repository\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\repository\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\models\\recentmatchesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\recentmatchesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\models\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\models\\heromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\heromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\views\\player\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\views\\player\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\views\\player\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\models\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\models\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\services\\heroservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\services\\heroservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\models\\recentmatchesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\recentmatchesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\models\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\repository\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\repository\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\services\\iheroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\services\\iheroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\repository\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\repository\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\views\\hero\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\views\\hero\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\thand\\source\\repos\\projetodotinha2\\projetodotinha2\\controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\services\\heroservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\services\\heroservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\models\\heromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\models\\heromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|c:\\users\\pedro henrique\\projetodotinha2\\projetodotinha2\\repository\\iherorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342883DF-5B36-4A8D-83DB-F0B7D9074C10}|ProjetoDotinha2\\ProjetoDotinha2.csproj|solutionrelative:projetodotinha2\\repository\\iherorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,72 +66,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Show.cshtml",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Player\\Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Player\\Show.cshtml",
               "RelativeDocumentMoniker": "ProjetoDotinha2\\Views\\Player\\Show.cshtml",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Player\\Show.cshtml",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Player\\Show.cshtml",
               "RelativeToolTip": "ProjetoDotinha2\\Views\\Player\\Show.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAYAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-01T02:40:13.618Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\ViewModels\\ShowViewModel.cs",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\ViewModels\\ShowViewModel.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\ViewModels\\ShowViewModel.cs",
+              "RelativeToolTip": "ProjetoDotinha2\\Models\\ViewModels\\ShowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T00:20:41.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "ProjetoDotinha2\\Controllers\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\PlayerController.cs",
               "RelativeToolTip": "ProjetoDotinha2\\Controllers\\PlayerController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwC4AAAAQAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T02:35:50.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\ViewModels\\ShowViewModel.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\ViewModels\\ShowViewModel.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\ViewModels\\ShowViewModel.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Models\\ViewModels\\ShowViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T23:51:20.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Repository\\PlayerRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Repository\\PlayerRepository.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Repository\\PlayerRepository.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Repository\\PlayerRepository.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCwAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T21:50:28.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProjetoDotinha2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ProjetoDotinha2\\Controllers\\HomeController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAYwC4AAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -148,142 +123,126 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerModel.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\PlayerModel.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\PlayerModel.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\PlayerModel.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Models\\PlayerModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "DocumentIndex": 5,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\Profile.cs",
+              "RelativeToolTip": "ProjetoDotinha2\\Models\\Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T21:50:36.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RecentMatchesModel.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\RecentMatchesModel.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\RecentMatchesModel.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\RecentMatchesModel.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Models\\RecentMatchesModel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA/wAoAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T21:47:51.792Z",
+              "WhenOpened": "2024-07-11T23:16:49.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HeroModel.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\HeroModel.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\HeroModel.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\HeroModel.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Models\\HeroModel.cs",
+              "Title": "PlayerModel.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\PlayerModel.cs",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\PlayerModel.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\PlayerModel.cs",
+              "RelativeToolTip": "ProjetoDotinha2\\Models\\PlayerModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T01:11:15.718Z",
+              "WhenOpened": "2024-07-11T23:15:11.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IPlayerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Repository\\IPlayerRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Repository\\IPlayerRepository.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Repository\\IPlayerRepository.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Repository\\IPlayerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "DocumentIndex": 3,
+              "Title": "RecentMatchesModel.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\RecentMatchesModel.cs",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\RecentMatchesModel.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\RecentMatchesModel.cs",
+              "RelativeToolTip": "ProjetoDotinha2\\Models\\RecentMatchesModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA0wBgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T22:51:55.846Z",
+              "WhenOpened": "2024-07-11T23:16:48.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HeroService .cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Services\\HeroService .cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Services\\HeroService .cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Services\\HeroService .cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Services\\HeroService .cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwA4AAAA5AAAA",
+              "DocumentIndex": 7,
+              "Title": "PlayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Repository\\PlayerRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Repository\\PlayerRepository.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Repository\\PlayerRepository.cs",
+              "RelativeToolTip": "ProjetoDotinha2\\Repository\\PlayerRepository.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowEMAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T00:41:08.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T23:15:19.79Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Program.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Program.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Program.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T00:43:24.388Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Player\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Views\\Player\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Player\\Index.cshtml",
+              "RelativeToolTip": "ProjetoDotinha2\\Views\\Player\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T23:17:19.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjetoDotinha2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T23:33:49.318Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "IHeroService.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Services\\IHeroService.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Services\\IHeroService.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Services\\IHeroService.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Services\\IHeroService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Title": "HeroModel.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\HeroModel.cs",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\HeroModel.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\HeroModel.cs",
+              "RelativeToolTip": "ProjetoDotinha2\\Models\\HeroModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T00:39:34.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T23:16:45.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Hero\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Views\\Hero\\Index.cshtml",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Hero\\Index.cshtml",
-              "RelativeToolTip": "ProjetoDotinha2\\Views\\Hero\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAB4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T22:10:13.708Z"
+              "DocumentIndex": 10,
+              "Title": "HeroService .cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Services\\HeroService .cs",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Services\\HeroService .cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Services\\HeroService .cs",
+              "RelativeToolTip": "ProjetoDotinha2\\Services\\HeroService .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:56:26.069Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "TeamModel.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\TeamModel.cs",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Models\\TeamModel.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Models\\TeamModel.cs",
-              "RelativeToolTip": "ProjetoDotinha2\\Models\\TeamModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T22:46:37.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "HeroController.cs",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\HeroController.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\HeroController.cs",
               "RelativeDocumentMoniker": "ProjetoDotinha2\\Controllers\\HeroController.cs",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\HeroController.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Controllers\\HeroController.cs",
               "RelativeToolTip": "ProjetoDotinha2\\Controllers\\HeroController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T02:41:40.043Z"
+              "WhenOpened": "2024-07-11T23:15:27.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Player\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjetoDotinha2\\Views\\Player\\Index.cshtml",
-              "ToolTip": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\Views\\Player\\Index.cshtml",
-              "RelativeToolTip": "ProjetoDotinha2\\Views\\Player\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T02:37:49.774Z"
+              "DocumentIndex": 13,
+              "Title": "IHeroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Repository\\IHeroRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoDotinha2\\Repository\\IHeroRepository.cs",
+              "ToolTip": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\Repository\\IHeroRepository.cs",
+              "RelativeToolTip": "ProjetoDotinha2\\Repository\\IHeroRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T23:15:07.39Z"
             }
           ]
         }

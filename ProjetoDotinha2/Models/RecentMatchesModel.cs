@@ -22,8 +22,7 @@
         public string hero_image { get; set; }
         public int duration_hours { get; set; }
         public int duration_minutes { get; set; }
-        
-       
+               
     }
 }
                                                                                   

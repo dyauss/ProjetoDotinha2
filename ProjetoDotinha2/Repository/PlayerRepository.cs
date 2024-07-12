@@ -25,7 +25,7 @@ namespace ProjetoDotinha2.Repository
 
             if (response.IsSuccessStatusCode)
             {
-                var matchesResponse = await _httpClient.GetAsync("https://api.opendota.com/api/players/" + id + "/matches");
+                var matchesResponse = await _httpClient.GetAsync("https://api.opendota.com/api/players/" + id + "/matches?significant=0");
                 matchesResponse.EnsureSuccessStatusCode();
 
                 var content = await response.Content.ReadAsStringAsync();
@@ -42,9 +42,18 @@ namespace ProjetoDotinha2.Repository
                 {
                     //Console.WriteLine("match: " + match.hero_id);
                     HeroModel result = heroes.Find(x => x.Id == match.hero_id);
-                    //Console.WriteLine("nome do heroi: " + result.localized_name);
-                    match.hero_name = result.localized_name;
-                    match.hero_image = result.img;                
+                    if (match.hero_id == 0)
+                    {
+                        
+                        match.hero_name = "Partida desconsiderada";
+                    
+                    } else
+                    {
+                        //Console.WriteLine("nome do heroi: " + result.localized_name);
+                        match.hero_name = result.localized_name;
+                        match.hero_image = result.img;
+                    }
+                                  
                                                             
                 }
 
