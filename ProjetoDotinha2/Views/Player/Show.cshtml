@@ -1,4 +1,6 @@
-﻿@model ProjetoDotinha2.Models.ViewModels.ShowViewModel
+﻿@using ProjetoDotinha2.Enums
+
+@model ProjetoDotinha2.Models.ViewModels.ShowViewModel
 <div class="row gap-3">
     <div class="text-center">
         <h1 class="display-4">Welcome</h1>
@@ -47,12 +49,7 @@
                                     <p class="@(match.radiant_win == (match.player_slot <= 127) ? "player-wins" : "player-loses")">
                                         @(match.radiant_win == (match.player_slot <= 127) ? "Vitória" : "Derrota")
                                     </p>
-                                    @foreach (var gameMode in @Model.TipoPartidas)
-                                    {
-                                                                       
-                                        <p>@gameMode.GetEnumDescription()</p>
-                                    
-                                    }
+                                    <p>@Model.TipoPartidas[@match.game_mode].GetEnumDescription()</p>
                                     <p class="card-title"></p>
                                 </div>   
                                 <div>

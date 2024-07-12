@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace ProjetoDotinha2.Enums
 {
-    public static class EnumExtension
+    public static class EnumExtensions
     {
         public static string GetEnumDescription(this Enum value)
         {
