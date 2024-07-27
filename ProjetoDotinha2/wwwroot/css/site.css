@@ -67,8 +67,8 @@ body {
         bottom: 10%;
         left: 50%;
         transform: translate(-50%, 50%);
-        color: #DAD6D4;
-        -webkit-text-stroke: 0.75px #2A3439;
+        color: white;
+        -webkit-text-stroke: 0.75px inherit;
         margin: 0;
         padding: 5px;
         width: 100%;

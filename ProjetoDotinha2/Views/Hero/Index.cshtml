@@ -1,7 +1,7 @@
 ﻿@model List<HeroModel>
 
-<div class="row gap-3 flex-row">
-    <div class="primary-attribute">
+<div class="flex justify-center">
+    <div class="primary-attribute flex">
         <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/herogrid/filter-str-active.png"
              class="filter-img"
              onclick="filterHeroes('str', this)" />
@@ -22,17 +22,25 @@
              onclick="filterHeroesByAttackType('Ranged', this)" />
         
     </div>
-
-    @foreach (var hero in Model)
-    {
-        <div class="card-heroes" data-primary-attr="@hero.primary_attr" data-attack-type="@hero.attack_type" id="hero-@hero.Id">
-            <div class="image-container">
-                @{
-                    string url = "https://cdn.akamai.steamstatic.com" + hero.img;
-                }
-                <img src="@url" alt="Imagem do Herói" />
-                <h5 class="font-weight-bold">@hero.localized_name</h5>
-            </div>
-        </div>
-    }
 </div>
+
+<div class="container mx-auto">
+    <div class="flex justify-center">
+
+        <div class="flex flex-wrap justify-center gap-4">
+            @foreach (var hero in Model)
+            {
+                <div class="card-heroes" data-primary-attr="@hero.primary_attr" data-attack-type="@hero.attack_type" id="hero-@hero.Id">
+                    <div class="image-container">
+                        @{
+                            string url = "https://cdn.akamai.steamstatic.com" + hero.img;
+                        }
+                        <img src="@url" alt="Imagem do Herói" />
+                        <h5 class="text-center mt-2">@hero.localized_name</h5>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
