@@ -67,6 +67,15 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "X.PagedList/10.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/X.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/X.PagedList.dll": {}
+        }
       }
     }
   },
@@ -197,27 +206,45 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "X.PagedList/10.0.3": {
+      "sha512": "HIYIXYlqIWrhedP1ext7bG1Bj3LS8X7zgNrZlrPdcQBbXCjns+QXudVbadzZq9tLrfQJmVowJirwCM1pONyeBg==",
+      "type": "package",
+      "path": "x.pagedlist/10.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/X.PagedList.dll",
+        "lib/net8.0/X.PagedList.dll",
+        "lib/netstandard2.0/X.PagedList.dll",
+        "lib/netstandard2.1/X.PagedList.dll",
+        "x.pagedlist.10.0.3.nupkg.sha512",
+        "x.pagedlist.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.AspNet.WebApi.Client >= 6.0.0"
+      "Microsoft.AspNet.WebApi.Client >= 6.0.0",
+      "X.PagedList >= 10.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gui_f\\.nuget\\packages\\": {}
+    "C:\\Users\\thand\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gui_f\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
+      "projectUniqueName": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
       "projectName": "ProjetoDotinha2",
-      "projectPath": "C:\\Users\\gui_f\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
-      "packagesPath": "C:\\Users\\gui_f\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gui_f\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\obj\\",
+      "projectPath": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
+      "packagesPath": "C:\\Users\\thand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gui_f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -225,6 +252,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -251,6 +279,10 @@
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "X.PagedList": {
+            "target": "Package",
+            "version": "[10.0.3, )"
           }
         },
         "imports": [
@@ -272,7 +304,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

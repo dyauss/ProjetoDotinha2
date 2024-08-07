@@ -8,6 +8,7 @@ using System.ComponentModel;
 using System.Reflection;
 using System;
 using System.Globalization;
+using X.PagedList;
 namespace ProjetoDotinha2.Controllers
 {
 
@@ -36,28 +37,38 @@ namespace ProjetoDotinha2.Controllers
             return View(player);
         }
 
-        [HttpPost]
-        public async Task <IActionResult> Show(int account_id)
+        [HttpGet]
+        public async Task <IActionResult> Show(int account_id, int page = 1)
         {
-            var response = await _playerRepository.GetPlayerById(account_id);
+           
+            var player = await _playerRepository.GetPlayerById(account_id);
 
-            if (response == null)
+            if (player == null)
             {
                 ViewData["notfound"] = "Não foi encontrado";
                 return View();
             } else
             {
                 var gameModes = Enum.GetValues(typeof(TipoPartida)).Cast<TipoPartida>().ToList();
-                Console.WriteLine("response2: " + response.profile.personaname);
+                List<HeroModel> heroes = await _heroService.GetHeroesAsync();
+
+                int pageSize = 10;
+                var totalMatches = player.RecentMatches.Count;
+                var totalPages = (int)Math.Ceiling(totalMatches / (double)pageSize);
+
+                var matches = player.RecentMatches
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToList();
 
                 ShowViewModel showViewModel = new ShowViewModel();
-                List<HeroModel> heroes = await _heroService.GetHeroesAsync();
-                
-                Console.WriteLine("Teste: " + heroes.Count);
-
-                showViewModel.Player = response;
+                showViewModel.Player = player;
                 showViewModel.Heroes = heroes;
                 showViewModel.TipoPartidas = gameModes;
+                showViewModel.CurrentPage = page;
+                showViewModel.TotalPages = totalPages;
+                showViewModel.PagedMatches = matches;
+
 
                 return View(showViewModel);
             }

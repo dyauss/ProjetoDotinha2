@@ -44,19 +44,14 @@ namespace ProjetoDotinha2.Repository
                     HeroModel result = heroes.Find(x => x.Id == match.hero_id);
                     if (match.hero_id == 0)
                     {
-                        
                         match.hero_name = "Partida desconsiderada";
-                    
                     } else
                     {
                         //Console.WriteLine("nome do heroi: " + result.localized_name);
                         match.hero_name = result.localized_name;
                         match.hero_image = result.img;
                     }
-                                  
-                                                            
                 }
-
 
                 Console.WriteLine("Player Name: " + player.profile.personaname);
                 Console.WriteLine("Match id:" + matches[0].match_id);

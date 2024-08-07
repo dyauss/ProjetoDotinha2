@@ -1,5 +1,4 @@
 ﻿@using ProjetoDotinha2.Enums
-
 @model ProjetoDotinha2.Models.ViewModels.ShowViewModel
 
 <div class="row gap-3">
@@ -10,7 +9,6 @@
             @ViewData["teste"]
         </div>
         <div class="row">
-            
             @if (Model?.Player?.profile != null)
             {
                 <div class="card" style="width: 18rem;">
@@ -21,14 +19,12 @@
                         <p class="card-title">@Model.Player.profile.last_login</p>
                         <img src="@Model.Player.profile.avatar" />
                         <img src="@Model.Player.profile.avatarfull" />
-                        
-                    </div>  
+                    </div>
                 </div>
-               
                 <div class="row">
-                    @foreach (var match in Model.Player.RecentMatches)
+                    @foreach (var match in Model.PagedMatches)
                     {
-                        <div id="accordion-collapse @match.match_id" data-accordion="collapse" >
+                        <div id="accordion-collapse @match.match_id" data-accordion="collapse">
                             <h2 id="accordion-collapse-heading-1">
                                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                                     @{
@@ -36,25 +32,24 @@
                                     }
                                     <div>
                                         <div>
-                                            <img src="@url" alt="Imagem do Herói" style="width: 9rem; height: 9rem; border-radius: 50%;"/>
+                                            <img src="@url" alt="Imagem do Herói" style="width: 9rem; height: 9rem; border-radius: 50%;" />
                                         </div>
-                                   
                                         <div>
                                             <strong class="font-weight-bold">@match.hero_name</strong>
                                         </div>
-                                            <div>
+                                        <div>
                                             <p>Horário de inicio da partida: @DateTimeOffset.FromUnixTimeSeconds(match.start_time).DateTime</p>
-                                            <p>Duração: @(match.duration / 60):@(match.duration % 60)</p                                   
+                                            <p>Duração: @(match.duration / 60):@(match.duration % 60)</p>
                                             <span>@match.kills/@match.deaths/@match.assists</span>
                                             <p class="@(match.radiant_win == (match.player_slot <= 127) ? "player-wins" : "player-loses")">
                                                 @(match.radiant_win == (match.player_slot <= 127) ? "Vitória" : "Derrota")
                                             </p>
                                             <p>@Model.TipoPartidas[@match.game_mode].GetEnumDescription()</p>
                                             <p class="card-title"></p>
-                                        </div>                          
+                                        </div>
                                     </div>
                                     <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
                                     </svg>
                                 </button>
                             </h2>
@@ -64,19 +59,42 @@
                                     <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
                                 </div>
                             </div>
-                        </div>          
-                                            }
-
+                        </div>
+                    }
                 </div>
-               
-                
-            } else
+                <div class="pagination">
+                    @if (Model.CurrentPage > 1)
+                    {
+                        <a asp-action="Show" asp-route-account_id="@Model.Player.profile.account_id" asp-route-page="@(Model.CurrentPage - 1)">Anterior</a>
+                    }
+
+                    @if (Model.CurrentPage > 5)
+                    {
+                        <a asp-action="Show" asp-route-account_id="@Model.Player.profile.account_id" asp-route-page="1">1</a>
+                        <span>...</span>
+                    }
+
+                    @for (int i = Math.Max(1, Model.CurrentPage - 5); i <= Math.Min(Model.TotalPages, Model.CurrentPage + 5); i++)
+                    {
+                        <a asp-action="Show" asp-route-account_id="@Model.Player.profile.account_id" asp-route-page="@i" class="@(i == Model.CurrentPage ? "active" : "")">@i</a>
+                    }
+
+                    @if (Model.CurrentPage < Model.TotalPages - 5)
+                    {
+                        <span>...</span>
+                        <a asp-action="Show" asp-route-account_id="@Model.Player.profile.account_id" asp-route-page="@Model.TotalPages">@Model.TotalPages</a>
+                    }
+
+                    @if (Model.CurrentPage < Model.TotalPages)
+                    {
+                        <a asp-action="Show" asp-route-account_id="@Model.Player.profile.account_id" asp-route-page="@(Model.CurrentPage + 1)">Próximo</a>
+                    }
+                </div>
+            }
+            else
             {
                 <p>@ViewData["notfound"]</p>
             }
-            
         </div>
     </div>
 </div>
- 
- 
