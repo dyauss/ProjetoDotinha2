@@ -20,6 +20,20 @@ namespace ProjetoDotinha2.Repository
             _heroService = heroService;
         }
 
+        public async Task<List<int>> GetPatchesForMatchesAsync(List<long> matchIds)
+        {
+            List<int> patches = new List<int>();
+            foreach (var matchId in matchIds)
+            {
+                var response = await _httpClient.GetAsync("https://api.opendota.com/api/matches/" + matchId);
+                response.EnsureSuccessStatusCode();
+                var content = await response.Content.ReadAsStringAsync();
+                var match = JsonConvert.DeserializeObject<MatchModel>(content);
+                patches.Add(match.patch);
+            }
+            return patches;
+        }
+
         public async Task<PlayerModel> GetPlayerById (int id)
         {
             var response = await _httpClient.GetAsync("https://api.opendota.com/api/players/" + id);
@@ -41,12 +55,7 @@ namespace ProjetoDotinha2.Repository
                 List<HeroModel> heroes = await _heroService.GetHeroesAsync();
                 foreach (RecentMatchesModel recentMatch in recentMatches)
                 {
-                    var response1 = await _httpClient.GetAsync("https://api.opendota.com/api/matches/" + recentMatch.match_id);
-                    var matchContent = await response1.Content.ReadAsStringAsync();
-                    var match = JsonConvert.DeserializeObject<MatchModel>(matchContent); 
-
-
-                    Console.WriteLine("Gold = " + match.patch);
+                    
                     //Console.WriteLine("match: " + match.hero_id);
                     HeroModel result = heroes.Find(x => x.Id == recentMatch.hero_id);
                     if (recentMatch.hero_id == 0)

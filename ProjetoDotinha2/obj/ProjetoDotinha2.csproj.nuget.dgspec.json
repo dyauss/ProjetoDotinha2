@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj": {}
+    "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj": {
+    "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
+        "projectUniqueName": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
         "projectName": "ProjetoDotinha2",
-        "projectPath": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
-        "packagesPath": "C:\\Users\\PEDRO HENRIQUE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PEDRO HENRIQUE\\ProjetoDotinha2\\ProjetoDotinha2\\obj\\",
+        "projectPath": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\ProjetoDotinha2.csproj",
+        "packagesPath": "C:\\Users\\thand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thand\\source\\repos\\ProjetoDotinha2\\ProjetoDotinha2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PEDRO HENRIQUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\thand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

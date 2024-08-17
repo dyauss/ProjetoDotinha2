@@ -5,6 +5,6 @@ namespace ProjetoDotinha2.Repository
     public interface IPlayerRepository
     {
         Task<PlayerModel> GetPlayerById(int id);
-
+        Task<List<int>> GetPatchesForMatchesAsync(List<long> matchIds);
     }
 }

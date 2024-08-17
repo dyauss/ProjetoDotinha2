@@ -60,6 +60,19 @@ namespace ProjetoDotinha2.Controllers
                     .Take(pageSize)
                     .ToList();
 
+                List<long> matchIds = new List<long>();
+
+                foreach (var match in matches)
+                {
+                    matchIds.Add(match.match_id);
+                }
+
+                var patches = await _playerRepository.GetPatchesForMatchesAsync(matchIds);
+                for (int i = 0; i < matches.Count; i++)
+                {
+                    matches[i].patch = patches[i];
+                }
+
                 ShowViewModel showViewModel = new ShowViewModel();
                 showViewModel.Player = player;
                 showViewModel.Heroes = heroes;
