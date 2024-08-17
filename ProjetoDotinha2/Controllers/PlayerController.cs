@@ -32,9 +32,8 @@ namespace ProjetoDotinha2.Controllers
         [HttpGet]
         public async Task <IActionResult> Index()
         {
-            var player = await _playerRepository.GetPlayerById(193827172);
            
-            return View(player);
+           return View();
         }
 
         [HttpGet]

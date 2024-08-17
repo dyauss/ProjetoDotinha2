@@ -13,6 +13,10 @@ namespace ProjetoDotinha2.Models
         public Profile profile { get; set; }
         public List <RecentMatchesModel> RecentMatches { get; set; }
 
+        public int player_slot { get; set; }
+
+        public int gold { get; set; }
+
     }
 }
 

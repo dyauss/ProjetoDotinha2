@@ -10,5 +10,6 @@ namespace ProjetoDotinha2.Models.ViewModels
         public int CurrentPage { get; set; }
         public int TotalPages { get; set; }
         public List<RecentMatchesModel> PagedMatches { get; set; }
+
     }
 }
